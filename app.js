@@ -3,51 +3,51 @@ document.addEventListener('DOMContentLoaded', () => {
 const cardArray = [
   {
     name: 'eren',
-    img: 'images/eren.png'
+    img: 'eren.png'
   },
   {
     name: 'eren',
-    img: 'images/eren.png'
+    img: 'eren.png'
   },
   {
     name: 'armin',
-    img: 'images/armin.png'
+    img: 'armin.png'
   },
   {
     name: 'armin',
-    img: 'images/armin.png'
+    img: 'armin.png'
   },
   {
     name: 'mikasa',
-    img: 'images/mikasa.jpeg'
+    img: 'mikasa.jpeg'
   },
   {
     name: 'mikasa',
-    img: 'images/mikasa.jpeg'
+    img: 'mikasa.jpeg'
   },
   {
     name: 'levi',
-    img: 'images/levi.jpeg'
+    img: 'levi.jpeg'
   },
   {
     name: 'levi',
-    img: 'images/levi.jpeg'
+    img: 'levi.jpeg'
   },
   {
     name: 'reiner',
-    img: 'images/Reiner.png'
+    img: 'Reiner.png'
   },
   {
     name: 'reiner',
-    img: 'images/Reiner.png'
+    img: 'Reiner.png'
   },
   {
     name: 'bertholdt',
-    img: 'images/Bertholdt.png'
+    img: 'Bertholdt.png'
   },
   {
     name: 'bertholdt',
-    img: 'images/Bertholdt.png'
+    img: 'Bertholdt.png'
   }
 ]
 
@@ -78,12 +78,12 @@ function checkForMatch() {
   const optionTwoId = cardsChosenId[1]
   if (cardsChosen[0] === cardsChosen[1]) {
     alert('You found a match!')
-    cards[optionOneId].setAttribute('src', 'images/white.jpg')
-    cards[optionTwoId].setAttribute('src', 'images/white.jpg')
+    cards[optionOneId].setAttribute('src', 'white.jpg')
+    cards[optionTwoId].setAttribute('src', 'white.jpg')
     cardsWon.push(cardsChosen)
   } else {
-    cards[optionOneId].setAttribute('src', 'images/logo.png')
-    cards[optionTwoId].setAttribute('src', 'images/logo.png')
+    cards[optionOneId].setAttribute('src', 'logo.png')
+    cards[optionTwoId].setAttribute('src', 'logo.png')
     alert('Sorry, try again')
   }
   cardsChosen=[]
